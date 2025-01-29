@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="models">
+      <UniqueIdentifier>{52f57377-7a87-4609-b674-d5ed4f48472b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{9fceaf44-0279-439b-af7b-5b8c32cb1afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build-windows">
+      <UniqueIdentifier>{62de27c3-af2e-487f-bc16-aa7434287325}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\models\face_landmarker_task.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\pose_landmarker_task.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\internal_highgui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\models\hand_landmarker_task.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\internal_highgui.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Demo-MediaPipe.rc">
+      <Filter>build-windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
