@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:Demo-MediaPipe.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/flatbuffers/build-macos/flatbuffers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/abseil-cpp/build-macos/abseil-cpp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/protobuf/build-macos/protobuf.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/XNNPACK/build-macos/XNNPACK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/tensorflow/build-macos/tensorflow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/OpenCV/build-macos/OpenCV.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/glog/build-macos/glog.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:../thirdparty/mediapipe/build-macos/mediapipe.xcodeproj">
+   </FileRef>
+</Workspace>

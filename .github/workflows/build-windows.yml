@@ -1,0 +1,41 @@
+name: build windows
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        configuration: [Debug, Release]
+        platform: [Win32, x64]
+    steps:
+      - uses: actions/checkout@main
+        with:
+          submodules: 'recursive'
+      - uses: microsoft/setup-msbuild@main
+      - shell: cmd
+        run: |
+          msbuild ./build-windows/Demo-MediaPipe.sln /p:Configuration=${{matrix.configuration}} /p:Platform=${{matrix.platform}}
+      - uses: actions/upload-artifact@main
+        with:
+          name: MediaPipe-C-API-Windows-${{matrix.platform}}-${{matrix.configuration}}
+          path: |
+            ./build-windows/bin/${{matrix.platform}}/${{matrix.configuration}}/mediapipe.dll
+            ./build-windows/bin/${{matrix.platform}}/${{matrix.configuration}}/mediapipe.lib
+      - uses: actions/upload-artifact@main
+        with:
+          name: TensorFlow-Lite-C-API-Windows-${{matrix.platform}}-${{matrix.configuration}}
+          path: |
+            ./build-windows/bin/${{matrix.platform}}/${{matrix.configuration}}/tensorflow-lite-c.dll
+            ./build-windows/bin/${{matrix.platform}}/${{matrix.configuration}}/tensorflow-lite-c.lib
+      - uses: actions/upload-artifact@main
+        with:
+          name: OpenCL-ICD-Loader-Windows-${{matrix.platform}}-${{matrix.configuration}}
+          path: |
+            ./build-windows/bin/${{matrix.platform}}/${{matrix.configuration}}/OpenCL.dll
+            ./build-windows/bin/${{matrix.platform}}/${{matrix.configuration}}/OpenCL.lib

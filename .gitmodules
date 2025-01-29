@@ -1,0 +1,104 @@
+[submodule "thirdparty/abseil-cpp"]
+	path = thirdparty/abseil-cpp
+	url = git@github.com:BriochePuppet/abseil-cpp.git
+	branch = master
+[submodule "thirdparty/cpuinfo"]
+	path = thirdparty/cpuinfo
+	url = git@github.com:BriochePuppet/cpuinfo.git
+	branch = master
+[submodule "thirdparty/eigen"]
+	path = thirdparty/eigen
+	url = git@github.com:BriochePuppet/eigen.git
+	branch = master
+[submodule "thirdparty/farmhash"]
+	path = thirdparty/farmhash
+	url = git@github.com:BriochePuppet/farmhash.git
+	branch = master
+[submodule "thirdparty/flatbuffers"]
+	path = thirdparty/flatbuffers
+	url = git@github.com:BriochePuppet/flatbuffers.git
+	branch = master
+[submodule "thirdparty/FP16"]
+	path = thirdparty/FP16
+	url = git@github.com:BriochePuppet/FP16.git
+	branch = master
+[submodule "thirdparty/FXdiv"]
+	path = thirdparty/FXdiv
+	url = git@github.com:BriochePuppet/FXdiv.git
+	branch = master
+[submodule "thirdparty/gemmlowp"]
+	path = thirdparty/gemmlowp
+	url = git@github.com:BriochePuppet/gemmlowp.git
+	branch = master
+[submodule "thirdparty/glog"]
+	path = thirdparty/glog
+	url = git@github.com:BriochePuppet/glog.git
+	branch = master
+[submodule "thirdparty/mediapipe"]
+	path = thirdparty/mediapipe
+	url = git@github.com:BriochePuppet/mediapipe.git
+	branch = master
+[submodule "thirdparty/OouraFFT"]
+	path = thirdparty/OouraFFT
+	url = git@github.com:BriochePuppet/OouraFFT.git
+	branch = master
+[submodule "thirdparty/OpenCL-Headers"]
+	path = thirdparty/OpenCL-Headers
+	url = git@github.com:BriochePuppet/OpenCL-Headers.git
+	branch = master
+[submodule "thirdparty/OpenCL-ICD-Loader"]
+	path = thirdparty/OpenCL-ICD-Loader
+	url = git@github.com:BriochePuppet/OpenCL-ICD-Loader.git
+	branch = master
+[submodule "thirdparty/protobuf"]
+	path = thirdparty/protobuf
+	url = git@github.com:BriochePuppet/protobuf.git
+	branch = master
+[submodule "thirdparty/pthreadpool"]
+	path = thirdparty/pthreadpool
+	url = git@github.com:BriochePuppet/pthreadpool.git
+	branch = master
+[submodule "thirdparty/ruy"]
+	path = thirdparty/ruy
+	url = git@github.com:BriochePuppet/ruy.git
+	branch = master
+[submodule "thirdparty/stb"]
+	path = thirdparty/stb
+	url = git@github.com:BriochePuppet/stb.git
+	branch = master
+[submodule "thirdparty/tensorflow"]
+	path = thirdparty/tensorflow
+	url = git@github.com:BriochePuppet/tensorflow.git
+	branch = master
+[submodule "thirdparty/Vulkan-Headers"]
+	path = thirdparty/Vulkan-Headers
+	url = git@github.com:BriochePuppet/Vulkan-Headers.git
+	branch = master
+[submodule "thirdparty/XNNPACK"]
+	path = thirdparty/XNNPACK
+	url = git@github.com:BriochePuppet/XNNPACK.git
+	branch = master
+[submodule "thirdparty/make"]
+	path = thirdparty/make
+	url = git@github.com:HanetakaChou/make.git
+	branch = master
+[submodule "thirdparty/mediapipe-model"]
+	path = thirdparty/mediapipe-model
+	url = git@github.com:BriochePuppet/mediapipe-model.git
+	branch = master
+[submodule "thirdparty/zlib"]
+	path = thirdparty/zlib
+	url = git@github.com:BriochePuppet/zlib.git
+	branch = master
+[submodule "thirdparty/OpenCV"]
+	path = thirdparty/OpenCV
+	url = git@github.com:BriochePuppet/OpenCV.git
+	branch = master
+[submodule "thirdparty/NDK-Build-Linux"]
+	path = thirdparty/NDK-Build-Linux
+	url = git@github.com:BriochePuppet/NDK-Build-Linux.git
+	branch = master
+[submodule "thirdparty/metal-cpp"]
+	path = thirdparty/metal-cpp
+	url = git@github.com:BriochePuppet/metal-cpp.git
+	branch = master
